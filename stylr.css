@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: inherit;
+    background-color: #e6e6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal{
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(237, 237, 237, 0.77);
+  max-width: 600px;
+  text-align: center;
+}
+
+.principal h2{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.principal p{
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.botao input[text="email"]{
+ flex: 1; 
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 6px;
+ font-size: 14px;
+ 
+}
+
+.botao button{
+  background-color: #000;
+  color: #fff;
+}
+
+#email{
+  padding: 20px;
+  width: 300px;
+  border-radius: 6px;
+  border-color: #cfcff0;
+  background-color: #efeff7;
+  font-weight: lighter;
+}
+
+#but{
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: #444;
+  text-align: left;
+}
